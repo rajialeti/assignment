@@ -1,0 +1,5 @@
+// all mixins goes here
+
+@mixin apply-property($prop, $val) {
+    #{$prop}: #{$val};
+}

@@ -1,0 +1,7 @@
+@import 'src/scss/settings/custom';
+
+.articles {
+    &_wrapper {
+        @include apply-property('background', $site-grey);
+    }
+}

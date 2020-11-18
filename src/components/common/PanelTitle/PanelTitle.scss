@@ -1,0 +1,8 @@
+// importing colors vars mixings into use
+@import 'src/scss/settings/custom';
+
+.panel {
+    &_title {
+        color: $mauvelous;
+    }
+}

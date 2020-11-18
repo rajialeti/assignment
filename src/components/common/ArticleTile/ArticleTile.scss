@@ -1,0 +1,25 @@
+// importing colors vars mixings into use
+@import 'src/scss/settings/custom';
+
+.article-tile {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &_date {
+        margin-bottom: 10px;
+    }
+    &_more {
+        align-self: flex-start;
+        margin-top: auto;
+    }
+}
+
+.bg-sea-buckthorn {
+    @include apply-property('background', $sea-buckthorn);
+}
+.bg-picton-blue {
+    @include apply-property('background', $picton-blue);
+}
+.bg-wisteria {
+    @include apply-property('background', $wisteria);
+}
